@@ -93,7 +93,7 @@ function binarySearch(arr, item, low, high) {
         return null; 
     } 
  
-    // Find the middle of the array. 
+    // Encuentra el centro de la matriz.
     var mid = Math.ceil((low + high) / 2); 
  
     if (arr[mid] === item) { // Found the item! 
@@ -209,7 +209,7 @@ def binary_search(arr, l, r, target):
 ### Ejemplo en C ++
 
 ```cpp
-// Binary Search using iteration 
+// Búsqueda binaria usando iteración 
  int binary_search(int arr[], int beg, int end, int num) 
  { 
     while(beg <= end){ 
@@ -257,7 +257,7 @@ volver a mediados
 
 } devuelve -1; }
 ```
-Iterative approach! 
+¡Enfoque iterativo!
 ```
 
 C ++ - enfoque iterativo int binarySearch (int arr \[\], int start, int end, int x) { while (inicio <= fin) { int mid = start + (end - start) / 2; if (arr \[mid\] == x) volver a mediados if (arr \[mid\] <x) inicio = medio + 1; más end = mid - 1; } devuelve -1; } \`\` \`
